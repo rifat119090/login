@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+}
+.preant{
+    height: 100vh;
+    background: url("../img/nature.jpg");
+      background-size: cover;
+      background-position: center;
+      position:relative;
+}
+.child {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    background: rgb(232 217 217 / 75%);
+    padding: 25px;
+}
+.photo{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.img{width: 80%;
+	margin: 0 auto;
+
+}
+.emil{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.password{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.submit{
+	display: block;
+	margin: 10px auto;
+	padding: 15px 30px;
+	background: red;
+	color: #fff;
+	border: 1px solid red;
+	font-size: 14px;
+	transition: all .4s linear;
+}
+.submit:hover{
+	background:green;
+	color: white;
+	cursor:pointer;
+}
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	margin:90px;
+	padding-top: 10px;
+}
